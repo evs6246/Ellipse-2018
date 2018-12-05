@@ -11,29 +11,43 @@
   <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.js"></script>
+    <script>
+        $( document ).ready(function(){
+            $(".sidenav").sidenav();
+            $(".dropdown-trigger").dropdown();
+        })
+    </script>
 
   <!-- NAVBAR  -->   
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="../assets/front page/e logo.png" alt="e" style= "max-height: 45px"></a>
-      
-   
-        
-        <ul class="right hide-on-med-and-down">
-        <li><a class="menu-graphic" href="#"><a class="orange-text" href="#!">READ</a></a></li>
-          <li><a class="menu-graphic" href="#"><a class="orange-text" href="#!">ABOUT</a></a></li>
-        
-      </ul>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!" class="orange-text">Letter from the Creative Directors</a></li>
+        <li><a href="#!" class="orange-text">Meet the Staff</a></li>
+        <li><a href="#!" class="orange-text">Acknowledgements</a></li>
+        <li><a href="#!" class="orange-text">Citations</a></li>
+    </ul>
+    <nav role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo"><img src="../assets/front page/e logo.png" alt="e" style= "max-height: 45px"></a>
 
-         
-        
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="menu-graphic" href="#"><a class="orange-text" href="#!">READ</a></a></li>
+                <li><a class="dropdown-trigger orange-text" href="#!" data-target="dropdown1">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+
+            <ul id="mobile-demo" class="sidenav">
+                <li><a href="#" class="orange-text">READ</a></li>
+                <li class="divider"></li>
+                <li><a href="#!" class="orange-text">Letter from the Creative Directors</a></li>
+                <li><a href="#!" class="orange-text">Meet the Staff</a></li>
+                <li><a href="#!" class="orange-text">Acknowledgements</a></li>
+                <li><a href="#!" class="orange-text">Citations</a></li>
+            </ul>
+            
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
     
 <!-- END NAVBAR  -->     
    
@@ -298,9 +312,11 @@
 <!--   END of FOOTER   -->
     
   <!--  Scripts-->
+<!--
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+-->
 
   </body>
 </html>

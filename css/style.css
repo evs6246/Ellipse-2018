@@ -1,0 +1,215 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+//.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+@font-face {
+    font-family: circularbold;
+    src: url(lineto-circular-pro-bold.ttf);
+}
+
+@font-face {
+    font-family: circularbook;
+    src: url(lineto-circular-pro-book.ttf);
+}
+
+@font-face {
+    font-family: circularbookit;
+    src: url(lineto-circular-pro-bookitalic.ttf);
+}
+
+@font-face {
+    font-family: circularmed;
+    src: url(lineto-circular-pro-medium.ttf);
+}
+
+@font-face {
+    font-family: circularmedit;
+    src: url(lineto-circular-pro-mediumitalic.ttf);
+}
+
+@font-face {
+    font-family: inconsolatabold;
+    src: url(inconsolata-bold.ttf);
+}
+
+@font-face {
+    font-family: inconsolatareg;
+    src: url(inconsolata-regular.ttf);
+}
+
+
+h1 {
+    font-family: circularbold;
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0;
+}
+
+h2 {
+    font-family: circularmed;
+  font-size: 2.5rem;
+  line-height: 110%;
+  margin: 2.3733333333rem 0 1.424rem 0;
+}
+
+h3 {
+     font-family: circularbook;
+  font-size: 2.92rem;
+  line-height: 110%;
+  margin: 1.9466666667rem 0 1.168rem 0;
+}
+
+h4 {
+    font-family: inconsolatabold;
+  font-size: 3.5rem;
+  line-height: 110%;
+  margin: 1.52rem 0 0.912rem 0;
+}
+
+h5 {
+    font-family: inconsolatareg;
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.52rem 0 0.912rem 0;
+}
+
+h6 {
+   font-family: georgia;
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: 1.0933333333rem 0 0.656rem 0;
+}
+
+h7 {
+    font-family: georgia;
+  font-size: 1.15rem;
+  line-height: 110%;
+  margin: 0.7666666667rem 0 0.46rem 0;
+}
+
+h8 {
+    font-family: inconsolatareg;
+  font-size: 1.15rem;
+  line-height: 110%;
+  margin: 0.7666666667rem 0 0.46rem 0;
+}
+
+h9 {
+    font-family: inconsolatareg;
+  font-size: 1.8rem;
+  line-height: 110%;
+  margin: 0.7666666667rem 0 0.46rem 0;
+}
+
+h10 {
+    font-family: circularmed;
+  font-size: 1.6rem;
+  line-height: 110%;
+  margin: 0.7666666667rem 0 0.46rem 0;
+}
+nav ul a:link {
+  color: #e28563;
+    font-family: circularmed;
+    font-size: 1.64rem;
+    letter-spacing: 1px;
+  line-height: 110%;
+  margin: 1.9466666667rem 0 1.168rem 0;
+    text-decoration: none;
+}
+
+.green-text {
+  color: #1a3d30 !important;
+}
+
+.orange-text {
+  color: #e25826 !important;
+}
+.orange.lighten-1 {
+  background-color: #e28563 !important;
+}
+
+.grey-text {
+  color: #3d3d40 ;
+}
+
+.tan-text {
+  color: #e9dbc5 ;
+}
+
+a:link{
+    color: #e25826;
+   text-decoration: underline; 
+}
+
+a:hover{
+    color: #e28563 !important;
+   text-decoration: underline; 
+}
+
+
+.green-background{
+    background: #1a3d30 !important;
+}
+
+.orange-background{
+    background: #e25826 !important;
+}
+
+.tan-background{
+    background: #e9dbc5 !important;
+}
